@@ -1,0 +1,95 @@
+.backvid{
+    position: absolute;
+    right: 0;
+    bottom:0;
+    z-index: -1;
+
+}
+
+@media (min-aspect-ratio: 16/9){
+    .backvid{
+        width:100% ;
+        height: auto;
+
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    .backvid{
+        width:auto ;
+        height: 100%;
+
+    }
+}
+
+.mainbody{
+    border: 0px solid blue;
+    margin:auto;
+     width: 45%;
+     float: left;
+     text-align: left;
+     
+     
+     z-index: 1;     
+}
+.maintext{
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.subtext{
+    font-size: 20px;
+    
+}
+
+button{
+    
+    color: white;
+    height: 70px;
+    width: 380px;
+    margin-bottom: 10px;
+    border: 0;
+}
+
+*{
+    font-family: sans-serif;
+}
+h1{
+    color: white;
+}
+p{
+    color: white;
+}
+.maintext{
+    text-decoration: bol;
+}
+a{
+   text-decoration:none ; 
+   color: white;
+}
+
+body{
+    background-color: black;
+
+}
+
+.signup{
+    background: transparent;
+    border: 1px solid white;
+}
+
+.signin{
+    background: transparent;
+    border: 1px solid white;
+}
+
+.signin:hover{
+    background:rgb(72, 0, 255);
+    color: white;
+    box-shadow: 2px 2px 50px;
+}
+
+.signup:hover{
+    background:rgb(72, 0, 255);
+    color: white;
+    box-shadow: 2px 2px 50px;
+}

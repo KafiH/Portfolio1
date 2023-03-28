@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        header{
+            background-color: red;
+            padding: 20px;
+            text-align: center;
+        }
+        nav{
+            background-color: black;
+        }
+        nav a{
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            padding: 20px;
+
+        }
+        a:hover{
+            background-color: aqua;
+        }
+        aside{
+            width: 20%;
+            float: left;
+            background-color: beige;
+            height: 700px;
+            
+        }
+        main{
+            width: 80%;
+            background-color: blueviolet;
+            float: left;
+            height: 700px;
+        }
+        footer{
+            background-color: yellow;
+            padding: 10px;
+            text-align: center;
+        }
+
+        @media only screen and (min-width:768px) {
+            main{
+            width: 100%;
+    
+        }
+    
+        aside{
+            display:none;
+        }
+}
+
+@media only screen and (min-width:0px) {
+            main{
+            width: 100%;
+    
+        }
+    
+        aside{
+            display:none;
+        }
+        nav{
+            display: none;
+        }
+}
+
+@media only screen and (min-width:1000px) {
+    main{
+            width: 80%;
+            
+           
+        }
+    
+        aside{
+           
+            display:block;
+            
+        }
+}
+
+
+
+
+       
+    </style>
+</head>
+<body>
+    <header>
+        header
+    </header>
+    <nav>
+        <a href="">Link</a>
+        <a href="">Link</a>
+        <a href="">Link</a>
+    </nav>
+    <aside>Aside</aside>
+    <main>Main</main>
+    <footer>footer</footer>
+</body>
+</html>
